@@ -2,7 +2,8 @@ body {
   font-family: "Courier New", monospace;
 }
 
-th, td {
+th,
+td {
   background-color: pink;
   width: 40px;
   height: 40px;
