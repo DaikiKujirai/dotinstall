@@ -1,11 +1,11 @@
-new Vue({
-  el: '#app',
-  data: {
-    fruits: ['りんご', 'バナナ', 'ぶどう'],
-  },
-  methods: {
-    remove: function() {
-      this.fruits.shift()
-    }
-  }
+var data = {
+  message: 'こんにちは',
+  name: 'よしぴー'
+}
+
+var vm = new Vue({
+  el : '#app',
+  data: data // = {message: 'こんにちは', name: 'よしぴー'
 })
+
+console.log(data === vm.$data)
